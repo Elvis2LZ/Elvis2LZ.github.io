@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Informaticien</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 30px;
+    }
+
+    .cv-container {
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      color: #2c3e50;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .left,
+    .right {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #3498db;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      color: #3498db;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section ul {
+      list-style: none;
+    }
+
+    .section li {
+      margin-bottom: 10px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #3498db;
+      color: #fff;
+      padding: 5px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .sections {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="header">
+      <h1>BEHIDI Elvis NDOYOM</h1>
+      <p>Développeur Full-Stack | Ndjamena, Tchad | endoyom@gmail.com | +235 63 45 20 17</p>
+    </div>
+
+    <div class="sections">
+      <div class="left">
+        <div class="section">
+          <h2>Profil</h2>
+          <p>Passionné par le développement web, j'ai pas mal de connaissances dans la création d'applications modernes, performantes et sécurisées.</p>
+        </div>
+
+        <div class="section">
+          <h2>Expérience</h2>
+          <p>En phase de recherche de stage d'apprentissage et de perfectionnement</p>
+        </div>
+
+        <div class="section">
+          <h2>Formations</h2>
+          <ul>
+            <li><strong>2022 - 2025 :</strong> Licence Informatique - Cefod Business School</li>
+            <li><strong>2024 :</strong> BTS IAG - Cefod Business School</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="section">
+          <h2>Compétences</h2>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>Git</span>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Langues</h2>
+          <ul>
+            <li>Français : Parlé, écrit et lu</li>
+            <li>Anglais : Ecrit et lu</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Centres d'intérêt</h2>
+          <ul>
+            <li>Veille technologique</li>
+            <li>Développement d'applications web</li>
+            <li>Sport (Football)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
