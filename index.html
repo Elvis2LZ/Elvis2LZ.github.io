@@ -1,29 +1,417 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEHIDI Elvis NDOYOM | Développeur Full Stack</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Salut, je suis Elvis</h1>
-    <p>Développeur web passionné</p>
+
+<header>
+
+    <div class="logo">
+        <h2>BEHIDI Elvis NDOYOM</h2>
+    </div>
+
     <nav>
-      <a href="projects.html">Projets</a>
-      <a href="about.html">À propos</a>
-      <a href="contact.html">Contact</a>
+
+        <ul>
+
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
     </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Bienvenue</h2>
-      <p>Voici un aperçu de mes réalisations et de mon parcours.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 - BEHIDI Elvis NDOYOM</p>
-  </footer>
+
+</header>
+
+<!-- ==================== ACCUEIL ==================== -->
+
+<section id="accueil" class="hero">
+
+    <div class="hero-text">
+
+        <h1>Bonjour, je suis <span>BEHIDI Elvis NDOYOM</span></h1>
+
+        <h3>Développeur Full Stack | Data Science | Informatique Décisionnelle</h3>
+
+        <p>
+
+            Passionné par le développement web, mobile et les solutions basées sur les données.
+            Je conçois des applications performantes, intuitives et évolutives.
+
+        </p>
+
+        <a href="cv.pdf" class="btn" target="_blank">
+
+            Télécharger mon CV
+
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="img/photo.jpg" alt="Photo de profil">
+
+    </div>
+
+</section>
+
+<!-- ==================== A PROPOS ==================== -->
+
+<section id="apropos">
+
+    <h2>À propos de moi</h2>
+
+    <p>
+
+        Je suis actuellement étudiant en <strong>Master 1 en Informatique Décisionnelle / Data Science</strong>
+        à l'UCAC Campus de Moundou après une Licence Professionnelle en Génie Informatique
+        (option Génie Logiciel) obtenue au CEFOD Business School.
+
+    </p>
+
+    <p>
+
+        J'aime concevoir des applications web et mobiles répondant à des problématiques réelles.
+        Mes domaines d'intérêt incluent le développement Full Stack, la Business Intelligence,
+        la Data Science, les tableaux de bord décisionnels et l'intelligence artificielle.
+
+    </p>
+
+</section>
+
+<!-- ==================== COMPETENCES ==================== -->
+
+<section id="competences">
+
+<h2>Compétences</h2>
+
+<div class="skills">
+
+<div class="skill">
+
+<h3>Développement Web</h3>
+
+<p>
+
+PHP<br>
+
+HTML5<br>
+
+CSS3<br>
+
+JavaScript<br>
+
+Bootstrap<br>
+
+MySQL
+
+</p>
+
+</div>
+
+<div class="skill">
+
+<h3>Développement Mobile</h3>
+
+<p>
+
+Java<br>
+
+Android Studio<br>
+
+Firebase<br>
+
+SQLite
+
+</p>
+
+</div>
+
+<div class="skill">
+
+<h3>Data Science</h3>
+
+<p>
+
+Python<br>
+
+SQL<br>
+
+Analyse de données<br>
+
+Business Intelligence
+
+</p>
+
+</div>
+
+<div class="skill">
+
+<h3>Outils</h3>
+
+<p>
+
+Git / GitHub<br>
+
+VS Code<br>
+
+XAMPP<br>
+
+Visual Paradigm<br>
+
+StarUML
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==================== PROJETS ==================== -->
+
+<section id="projets">
+
+<h2>Mes Projets</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<img src="img/ccu.png">
+
+<h3>Plateforme Web CCU</h3>
+
+<p>
+
+Développement du site officiel du Centre Catholique Universitaire avec espace d'administration.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<img src="img/bar-manager.png">
+
+<h3>Gestion de Bar</h3>
+
+<p>
+
+Gestion du stock, ventes, dépenses, dettes clients, statistiques et rapports PDF.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<img src="img/syncnote.png">
+
+<h3>SyncNote App</h3>
+
+<p>
+
+Application Android avec stockage SQLite et synchronisation Firebase.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<img src="img/digital-ucac.png">
+
+<h3>Digital UCAC</h3>
+
+<p>
+
+Application Android universitaire connectée à Firebase.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<img src="img/chicken.png">
+
+<h3>Plateforme E-commerce</h3>
+
+<p>
+
+Application web de livraison de volailles avec espace administrateur.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<img src="img/dashboard.png">
+
+<h3>Dashboard Décisionnel</h3>
+
+<p>
+
+Projet de tableau de bord décisionnel pour l'analyse des indicateurs.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==================== FORMATION ==================== -->
+
+<section id="formation">
+
+<h2>Formation</h2>
+
+<div class="timeline">
+
+<div>
+
+<h3>Master 1</h3>
+
+<p>
+
+Informatique Décisionnelle / Data Science
+
+<br>
+
+UCAC Campus de Moundou
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Licence Professionnelle</h3>
+
+<p>
+
+Génie Informatique
+
+(Option Génie Logiciel)
+
+<br>
+
+CEFOD Business School
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Baccalauréat Série D</h3>
+
+<p>
+
+Lycée Filao de Gassi
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+
+Disponible pour des opportunités professionnelles, stages ou collaborations.
+
+</p>
+
+<div class="contact-info">
+
+<p>
+
+<i class="fas fa-phone"></i>
+
++235 XX XX XX XX
+
+</p>
+
+<p>
+
+<i class="fas fa-envelope"></i>
+
+votreemail@gmail.com
+
+</p>
+
+<p>
+
+<i class="fab fa-github"></i>
+
+github.com/votreprofil
+
+</p>
+
+<p>
+
+<i class="fab fa-linkedin"></i>
+
+linkedin.com/in/votreprofil
+
+</p>
+
+</div>
+
+<form>
+
+<input type="text" placeholder="Nom">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Votre message"></textarea>
+
+<button type="submit">
+
+Envoyer
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 BEHIDI Elvis NDOYOM — Tous droits réservés.
+
+</p>
+
+</footer>
+
 </body>
 </html>
